@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracciones", "Abstracciones\Abstracciones.csproj", "{40C74958-1804-4C74-B704-2D6DC060DB3F}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB", "DB\DB.sqlproj", "{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{40C74958-1804-4C74-B704-2D6DC060DB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C74958-1804-4C74-B704-2D6DC060DB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C74958-1804-4C74-B704-2D6DC060DB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046B0ACF-25F2-404E-BDEE-8E05FFFE55AF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

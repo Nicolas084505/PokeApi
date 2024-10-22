@@ -14,6 +14,6 @@ namespace Abstracciones.Interfaces.DA
         Task<Guid> AgregarEquipo(Equipo equipo);          
         Task<Guid> EditarEquipo(Equipo equipo);           
         Task<Guid> EliminarEquipo(Guid idEquipo);         
-        Task<IEnumerable<Pokemon>> ObtenerPokemonsDelEquipo(Guid idEquipo);
+        
     }
 }

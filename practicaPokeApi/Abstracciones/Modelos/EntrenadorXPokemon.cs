@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Abstracciones.Modelos
 {
-    public class Equipo
+    public class EntrenadorXPokemon
     {
-        public Guid IdEquipo { get; set; }
-        public string Nombre { get; set; }
-
+        public Guid idEntrenadorXPokemon { get; set; }
         public Entrenador Entrenador { get; set; }
-        
+
+        public Equipo Equipo { get; set; }
+        public List<Pokemon> Pokemons { get; set; } = new List<Pokemon>();
+
+
     }
 }

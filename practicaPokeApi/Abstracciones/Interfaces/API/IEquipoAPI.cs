@@ -14,7 +14,7 @@ namespace Abstracciones.Interfaces.API
         Task<IActionResult> EditarEquipo(Equipo equipo); 
         [HttpDelete]
         Task<IActionResult> EliminarEquipo(Guid idEquipo);
-        [HttpGet]
-        Task<IActionResult> ObtenerPokemonsDelEquipo(Guid idEquipo);
+        
+        
     }
 }
