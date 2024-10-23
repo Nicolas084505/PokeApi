@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 namespace Abstracciones.Interfaces.API
 {
-    internal interface IEquipoAPI
+    public interface IEquipoController
     {
         [HttpGet]
         Task<IActionResult> ObtenerTodos();

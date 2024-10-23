@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Abstracciones.Interfaces.API
 {
-    internal interface IEntrenadorAPI
+    public interface IEntrenadorController
     {
         [HttpGet]
         Task<IActionResult> ObtenerTodos();

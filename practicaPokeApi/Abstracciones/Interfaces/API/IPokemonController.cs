@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 namespace Abstracciones.Interfaces.API
 {
-    internal interface IPokemonAPI
+    public interface IPokemonController
     {
         [HttpGet]
         Task<IActionResult> ObtenerTodos();

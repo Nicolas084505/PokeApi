@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Abstracciones.Interfaces.Flujo
 {
-    internal interface IEntrenadorXPokemonFlujo
+    public interface IEntrenadorXPokemonFlujo
     {
         Task<IEnumerable<EntrenadorXPokemon>> ObtenerTodos();
         Task<EntrenadorXPokemon> Obtener(Guid idEntrenadorXPokemon);

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Abstracciones.Interfaces.API
 {
-    internal interface IEntrenadorXPokemonAPI
+    public interface IEntrenadorXPokemonController
     {
         [HttpGet]
         Task<IActionResult> ObtenerTodos();

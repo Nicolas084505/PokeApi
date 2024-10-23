@@ -11,7 +11,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Flujo
 {
-    internal class Flujo : IPokemonFlujo,IEquipoFlujo,IEntrenadorFlujo,IEntrenadorXPokemonDA
+    public class Flujos : IPokemonFlujo,IEquipoFlujo,IEntrenadorFlujo,IEntrenadorXPokemonDA
     {
 
         private readonly IPokemonDA _pokemonDA;
@@ -22,7 +22,7 @@ namespace Flujo
 
         // private readonly IPokemonService _pokemonService;
 
-        public Flujo(IPokemonDA pokemonDA, IEquipoDA equipoDA, IEntrenadorDA entrenadorDA, IEntrenadorXPokemonDA entrenadorxpokemonDA, IEntrenadorReglas entrenadorReglas)
+        public Flujos(IPokemonDA pokemonDA, IEquipoDA equipoDA, IEntrenadorDA entrenadorDA, IEntrenadorXPokemonDA entrenadorxpokemonDA, IEntrenadorReglas entrenadorReglas)
         {
             _pokemonDA = pokemonDA;
             _equipoDA = equipoDA;
