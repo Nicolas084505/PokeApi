@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Abstracciones.Interfaces.DA
 {
-    internal interface IEquipoDA
+    public interface IEquipoDA
     {
         Task<IEnumerable<Equipo>> ObtenerTodos();          
         Task<Equipo> ObtenerPorId(Guid idEquipo);          

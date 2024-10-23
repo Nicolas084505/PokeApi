@@ -6,7 +6,7 @@ namespace Abstracciones.Interfaces.Flujo
     {
         Task<IEnumerable<Pokemon>> ObtenerTodos();
         Task<Pokemon> ObtenerPorNumero(int numero);
-        Task<int> AgregarPokemon(Pokemon pokemon);
+        Task<Guid> AgregarPokemon(Pokemon pokemon);
         Task<int> EditarPokemon(Pokemon pokemon);
         Task<int> EliminarPokemon(int numero);
     }
