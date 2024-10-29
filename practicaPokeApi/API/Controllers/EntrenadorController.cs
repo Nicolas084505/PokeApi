@@ -24,11 +24,12 @@ namespace API.Controllers
             return Ok(resultado);
         }
 
+        [HttpPut]
         public Task<IActionResult> Editar(Abstracciones.Modelos.Entrenador entrenador)
         {
             throw new NotImplementedException();
         }
-
+        [HttpDelete]
         public Task<IActionResult> Eliminar(Guid idEntrenador)
         {
             throw new NotImplementedException();

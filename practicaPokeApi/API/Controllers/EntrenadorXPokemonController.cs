@@ -23,15 +23,9 @@ namespace API.Controllers
             return Ok(resultado);
         }
 
-        public Task<IActionResult> Editar(EntrenadorXPokemon entrenadorXPokemon)
-        {
-            throw new NotImplementedException();
-        }
+       
 
-        public Task<IActionResult> Eliminar(Guid idEntrenadorXPokemon)
-        {
-            throw new NotImplementedException();
-        }
+       
         [HttpGet("{idEntrenadorXPokemon}")]
         public async Task<IActionResult> Obtener(Guid idEntrenadorXPokemon)
         {

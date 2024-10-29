@@ -10,9 +10,6 @@ namespace Abstracciones.Interfaces.API
         Task<IActionResult> ObtenerPorNumero(int numero);
         [HttpPost]
         Task<IActionResult> AgregarPokemon(Pokemon pokemon);
-        [HttpPut]
-        Task<IActionResult> EditarPokemon(Pokemon pokemon);
-        [HttpDelete]
-        Task<IActionResult> EliminarPokemon(int numero);
+       
     }
 }

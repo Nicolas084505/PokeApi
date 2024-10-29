@@ -10,10 +10,8 @@ namespace Abstracciones.Interfaces.API
         Task<IActionResult> ObtenerPorId(Guid idEquipo);
         [HttpPost]
         Task<IActionResult> AgregarEquipo(Equipo equipo);
-        [HttpPut]
-        Task<IActionResult> EditarEquipo(Equipo equipo); 
-        [HttpDelete]
-        Task<IActionResult> EliminarEquipo(Guid idEquipo);
+       
+       
         
         
     }

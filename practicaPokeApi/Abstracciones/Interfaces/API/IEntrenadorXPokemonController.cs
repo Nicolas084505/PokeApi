@@ -16,9 +16,7 @@ namespace Abstracciones.Interfaces.API
         Task<IActionResult> Obtener(Guid idEntrenadorXPokemon);
         [HttpPost]
         Task<IActionResult> Agregar(EntrenadorXPokemon entrenadorXPokemon);
-        [HttpPut]
-        Task<IActionResult> Editar(EntrenadorXPokemon entrenadorXPokemon);
-        [HttpDelete]
-        Task<IActionResult> Eliminar(Guid idEntrenadorXPokemon);
+        
+        
     }
 }

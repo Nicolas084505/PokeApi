@@ -27,15 +27,7 @@ namespace API.Controllers
             return Ok(resultado);
         }
 
-        public Task<IActionResult> EditarEquipo(Equipo equipo)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IActionResult> EliminarEquipo(Guid idEquipo)
-        {
-            throw new NotImplementedException();
-        }
+      
         [HttpGet("{idEquipo}")]
         public async Task<IActionResult> ObtenerPorId(Guid idEquipo)
         {

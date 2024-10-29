@@ -25,15 +25,7 @@ namespace API.Controllers
             return Ok(resultado);
         }
 
-        public Task<IActionResult> EditarPokemon(Pokemon pokemon)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IActionResult> EliminarPokemon(int numero)
-        {
-            throw new NotImplementedException();
-        }
+      
         [HttpGet("{numero}")]
         public async Task<IActionResult> ObtenerPorNumero(int numero)
         {
